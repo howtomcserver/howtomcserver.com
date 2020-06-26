@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - stable
 before_install:
-- openssl aes-256-cbc -K $encrypted_1658394769ee_key -iv $encrypted_1658394769ee_iv -in howtomcserver_travis_github_deploy_key.enc -out howtomcserver_travis_github_deploy_key -d
+- openssl aes-256-cbc -K $encrypted_2c99306b5cac_key -iv $encrypted_2c99306b5cac_iv -in howtomcserver_travis_github_deploy_key.enc -out howtomcserver_travis_github_deploy_key -d
 - chmod 600 howtomcserver_travis_github_deploy_key
 - eval $(ssh-agent -s)
 - ssh-add howtomcserver_travis_github_deploy_key
