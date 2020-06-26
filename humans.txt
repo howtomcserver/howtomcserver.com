@@ -1,0 +1,10 @@
+/* TEAM */
+dumb guy: simpleauthority
+site: https://jacobandersen.dev
+twitter: vspctr
+location: california
+
+/* SITE */
+standards: Vue, basically
+components: Vue, basically
+software: Gridsome (Vue, basically)
