@@ -6,6 +6,6 @@
 
 module.exports = {
   siteName: 'How to MC Server',
-  siteUrl: 'https://howtomcserver.github.io',
+  siteUrl: 'https://howtomcserver.com',
   plugins: []
 }
