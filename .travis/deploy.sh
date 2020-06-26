@@ -8,3 +8,6 @@ setup_git() {
 deploy() {
   yarn deploy
 }
+
+setup_git
+deploy
