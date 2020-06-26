@@ -10,7 +10,8 @@ before_install:
 - chmod 600 howtomcserver_travis_github_deploy_key
 - eval $(ssh-agent -s)
 - ssh-add howtomcserver_travis_github_deploy_key
+- git config --global user.email "travis@travis-ci.org"
+- git config --global user.name "Travis CI"
 script:
 - yarn build
-after_success:
-- .travis/deploy.sh
+- yarn deploy
